@@ -36,6 +36,12 @@ Your money is concentrated in five main areas that account for **63%** of all sp
 
 ![Total Spending by Category](charts/category_totals.png)
 
+### Category Distribution Overview
+
+![Category Distribution as Percentage](charts/category_percentage.png)
+
+This donut chart provides a clear visual breakdown of where every Manat goes, helping you identify the biggest opportunities for savings.
+
 ---
 
 ## Critical Insights for Better Financial Health
@@ -81,6 +87,24 @@ Your money is concentrated in five main areas that account for **63%** of all sp
 
 **Stability Strategy:** Target your proven low of ₼1,800/month as a sustainable goal - this alone could save you **₼561/month**.
 
+### Year-over-Year Comparison
+
+![Year-over-Year Monthly Spending](charts/year_over_year.png)
+
+This comparison reveals how your spending habits have evolved across different years, helping you spot trends and seasonal patterns.
+
+### Quarterly Performance
+
+![Quarterly Spending Trends](charts/quarterly_trends.png)
+
+Breaking down your spending by quarters shows clear patterns - some quarters consistently show higher spending, which can help you plan better.
+
+### Monthly Growth Analysis
+
+![Month-over-Month Growth Rate](charts/growth_rate.png)
+
+The growth rate chart highlights months where spending increased (green) or decreased (red), making it easy to identify what triggers spending spikes.
+
 ---
 
 ### 4. Category Spending Evolution
@@ -108,6 +132,26 @@ Your money is concentrated in five main areas that account for **63%** of all sp
 ![Average Spending by Day of Week](charts/spending_by_day.png)
 
 **Behavioral Insight:** Work-related stress and convenience drive weekday spending. Your weekend spending is actually more controlled!
+
+---
+
+### 6. Transaction Size Analysis
+
+![Transaction Size Distribution](charts/transaction_size_distribution.png)
+
+Understanding how your transactions are distributed by size reveals that most of your purchases fall into predictable ranges, which helps in setting realistic spending limits.
+
+### 7. Your Biggest Expenses
+
+![Top 15 Most Expensive Transactions](charts/top_transactions.png)
+
+These are your largest single transactions. Reviewing these can help you understand where major expenses occur and plan better for similar future costs.
+
+### 8. Seasonal Spending Patterns
+
+![Average Spending by Month](charts/avg_spending_by_month.png)
+
+This chart shows which months typically see higher spending across all years, helping you anticipate and budget for seasonal variations.
 
 ---
 
@@ -272,13 +316,38 @@ By implementing just **50% of these strategies**, you could save **₼4,686 annu
 
 All analysis based on **6,064 transactions** spanning **July 2022 to November 2025**.
 
+### Complete Chart Library
+
+This analysis includes **15 comprehensive visualizations**:
+
+1. **spending_by_category.png** - Pie chart with category distribution
+2. **category_percentage.png** - Donut chart showing percentages
+3. **category_totals.png** - Bar chart of total spending by category
+4. **monthly_trend.png** - Monthly spending over time
+5. **category_trends.png** - Stacked area chart of category evolution
+6. **year_over_year.png** - Year-by-year comparison
+7. **quarterly_trends.png** - Quarterly spending patterns
+8. **growth_rate.png** - Month-over-month growth rates
+9. **spending_by_day.png** - Average spending by day of week
+10. **spending_heatmap.png** - Hourly and daily spending patterns
+11. **transaction_analysis.png** - Frequency vs. amount analysis
+12. **transaction_size_distribution.png** - Spending distribution by amount ranges
+13. **top_transactions.png** - Top 15 largest expenses
+14. **avg_spending_by_month.png** - Monthly averages across all years
+15. **spending_percentiles.png** - Percentile distribution
+
 ![Transaction Analysis](charts/transaction_analysis.png)
 
-*For detailed analysis code, see `analyze_expenses.py`*
-*For raw insights data, see `insights.json`*
+### Data & Code
+
+- **Currency:** All amounts in **Manat (₼)**
+- **Analysis Script:** `analyze_expenses.py` - Fully automated analysis pipeline
+- **Insights Data:** `insights.json` - Machine-readable metrics and calculations
+- **Savings Potential:** ₼8,513 annually based on conservative reductions
 
 ---
 
 **Analysis Generated:** November 2025
 **Data Period:** July 2022 - November 2025
+**Currency:** Azerbaijan Manat (₼)
 **Your Financial Future Starts Today**
