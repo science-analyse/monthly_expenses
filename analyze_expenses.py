@@ -399,7 +399,7 @@ insights = {
         'most_expensive_day': str(daily_spending['mean'].idxmax()),
         'most_expensive_day_avg': float(daily_spending['mean'].max()),
         'cheapest_day': str(daily_spending['mean'].idxmin()),
-        'cheapest_day_avg': float(daily_spending['mean'].idxmin()),
+        'cheapest_day_avg': float(daily_spending['mean'].min()),
         'weekday_avg': float(daily_spending.loc[['Monday', 'Tuesday', 'Wednesday',
                                             'Thursday', 'Friday']]['mean'].mean()),
         'weekend_avg': float(daily_spending.loc[['Saturday', 'Sunday']]['mean'].mean())
@@ -422,12 +422,12 @@ insights = {
         for p in [10, 25, 50, 75, 90, 95, 99]
     },
     'savings_potential': {
-        'if_reduce_restaurant_20pct': float(category_totals.get('Restaurant', 0) * 0.20),
-        'if_reduce_coffee_30pct': float(category_totals.get('Coffee', 0) * 0.30),
+        'if_reduce_restaurant_20pct': float(category_totals.get('Restuarant', 0) * 0.20),
+        'if_reduce_coffee_30pct': float(category_totals.get('Coffe', 0) * 0.30),
         'if_reduce_taxi_25pct': float(category_totals.get('Taxi', 0) * 0.25),
         'total_potential_savings': float(
-            category_totals.get('Restaurant', 0) * 0.20 +
-            category_totals.get('Coffee', 0) * 0.30 +
+            category_totals.get('Restuarant', 0) * 0.20 +
+            category_totals.get('Coffe', 0) * 0.30 +
             category_totals.get('Taxi', 0) * 0.25
         )
     }
