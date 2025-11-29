@@ -6,17 +6,17 @@
 
 ## Executive Summary
 
-Your spending data reveals both strengths and opportunities. Over the past 3+ years, you've spent **$96,810** across 23 different categories. Understanding these patterns is the first step toward smarter financial decisions and meaningful savings.
+Your spending data reveals both strengths and opportunities. Over the past 3+ years, you've spent **₼96,810** across 23 different categories. Understanding these patterns is the first step toward smarter financial decisions and meaningful savings.
 
 ### Key Metrics at a Glance
 
 | Metric | Value | Insight |
 |--------|-------|---------|
-| **Total Spent** | $96,810 | Across 3.4 years |
-| **Average Monthly Spending** | $2,361 | Baseline budget target |
-| **Average Transaction** | $16 | Mostly small purchases |
-| **Most Expensive Month** | July 2024: $5,509 | 133% above average |
-| **Most Efficient Month** | November 2022: $1,018 | Great control! |
+| **Total Spent** | ₼96,810 | Across 3.4 years |
+| **Average Monthly Spending** | ₼2,361 | Baseline budget target |
+| **Average Transaction** | ₼16 | Mostly small purchases |
+| **Most Expensive Month** | July 2024: ₼5,509 | 133% above average |
+| **Most Efficient Month** | November 2022: ₼1,018 | Great control! |
 
 ---
 
@@ -28,11 +28,11 @@ Your spending data reveals both strengths and opportunities. Over the past 3+ ye
 
 Your money is concentrated in five main areas that account for **63%** of all spending:
 
-1. **Restaurant** - $18,848 (19.5%) - 806 visits
-2. **Coffee** - $14,382 (14.9%) - 1,582 purchases
-3. **Market** - $10,769 (11.1%) - 1,396 trips
-4. **Communal Bills** - $10,204 (10.5%) - 62 payments
-5. **Health** - $6,165 (6.4%) - 63 transactions
+1. **Restaurant** - ₼18,848 (19.5%) - 806 visits
+2. **Coffee** - ₼14,382 (14.9%) - 1,582 purchases
+3. **Market** - ₼10,769 (11.1%) - 1,396 trips
+4. **Communal Bills** - ₼10,204 (10.5%) - 62 payments
+5. **Health** - ₼6,165 (6.4%) - 63 transactions
 
 ![Total Spending by Category](charts/category_totals.png)
 
@@ -42,14 +42,14 @@ Your money is concentrated in five main areas that account for **63%** of all sp
 
 ### 1. The Coffee & Dining Pattern
 
-**The Reality:** Combined spending on Coffee ($14,382) and Restaurants ($18,848) totals **$33,230** - that's **34.3%** of all expenses.
+**The Reality:** Combined spending on Coffee (₼14,382) and Restaurants (₼18,848) totals **₼33,230** - that's **34.3%** of all expenses.
 
 **What This Means:**
-- You're spending an average of **$9.09 per coffee** (1,582 purchases)
-- Restaurant visits average **$23.39** per meal (806 visits)
-- This equals approximately **$810/month** on dining out and coffee
+- You're spending an average of **₼9.09 per coffee** (1,582 purchases)
+- Restaurant visits average **₼23.39** per meal (806 visits)
+- This equals approximately **₼810/month** on dining out and coffee
 
-**Opportunity:** Reducing this by just 30% could save you **$243/month** or **$2,916/year**
+**Opportunity:** Reducing this by just 30% could save you **₼243/month** or **₼2,916/year**
 
 ---
 
@@ -57,11 +57,11 @@ Your money is concentrated in five main areas that account for **63%** of all sp
 
 ![Spending Distribution by Percentile](charts/spending_percentiles.png)
 
-**Key Finding:** **66% of your transactions are under $10** - these "micro-expenses" add up significantly.
+**Key Finding:** **66% of your transactions are under ₼10** - these "micro-expenses" add up significantly.
 
 **The Psychology:** Small purchases feel harmless but accumulate rapidly. Your data shows:
-- Transactions under $10: 3,996 purchases
-- Total impact: Approximately $28,000 over the period
+- Transactions under ₼10: 3,996 purchases
+- Total impact: Approximately ₼28,000 over the period
 - These often go unnoticed and untracked
 
 **Action Item:** Implement a "daily spending cap" for small purchases to regain control.
@@ -72,14 +72,14 @@ Your money is concentrated in five main areas that account for **63%** of all sp
 
 ![Monthly Spending Trend](charts/monthly_trend.png)
 
-**Pattern Identified:** Your spending varies significantly month-to-month (from $1,018 to $5,509).
+**Pattern Identified:** Your spending varies significantly month-to-month (from ₼1,018 to ₼5,509).
 
 **What's Happening:**
 - **Inconsistent budgeting** leads to overspending in some months
 - **July 2024** spike suggests vacation or major purchase
 - **November 2022** shows you CAN maintain lower spending
 
-**Stability Strategy:** Target your proven low of $1,800/month as a sustainable goal - this alone could save you **$561/month**.
+**Stability Strategy:** Target your proven low of ₼1,800/month as a sustainable goal - this alone could save you **₼561/month**.
 
 ---
 
@@ -101,8 +101,8 @@ Your money is concentrated in five main areas that account for **63%** of all sp
 ![Spending Patterns by Day and Hour](charts/spending_heatmap.png)
 
 **When You Spend:**
-- **Wednesday** is your highest-spending day (average $19.36/transaction)
-- **Weekday spending** ($16.57 avg) exceeds **weekend spending** ($14.38 avg)
+- **Wednesday** is your highest-spending day (average ₼19.36/transaction)
+- **Weekday spending** (₼16.57 avg) exceeds **weekend spending** (₼14.38 avg)
 - Peak spending hours align with work breaks and commute times
 
 ![Average Spending by Day of Week](charts/spending_by_day.png)
@@ -116,62 +116,62 @@ Your money is concentrated in five main areas that account for **63%** of all sp
 ### Immediate Actions (Month 1)
 
 #### 1. The 50/30 Coffee Rule
-**Current:** 1,582 coffees = ~$14,382 (average $9.09 each)
+**Current:** 1,582 coffees = ~₼14,382 (average ₼9.09 each)
 **Target:** Brew coffee at home 3 days/week
-**Monthly Savings:** $58 | **Annual:** $696
+**Monthly Savings:** ₼58 | **Annual:** ₼696
 
 #### 2. Weekly Meal Prep
-**Current:** 806 restaurant visits = $18,848
+**Current:** 806 restaurant visits = ₼18,848
 **Target:** Cook 2 extra dinners per week
-**Monthly Savings:** $152 | **Annual:** $1,824
+**Monthly Savings:** ₼152 | **Annual:** ₼1,824
 
 #### 3. Track Micro-Transactions
-**Current:** 66% of purchases under $10 go unmonitored
-**Target:** Set a daily limit of $20 for impulse purchases
-**Monthly Savings:** $75 | **Annual:** $900
+**Current:** 66% of purchases under ₼10 go unmonitored
+**Target:** Set a daily limit of ₼20 for impulse purchases
+**Monthly Savings:** ₼75 | **Annual:** ₼900
 
-**Total Month 1 Savings: $285/month or $3,420/year**
+**Total Month 1 Savings: ₼285/month or ₼3,420/year**
 
 ---
 
 ### Strategic Actions (Months 2-6)
 
 #### 4. Consolidate Transportation
-**Current:** Transport ($1,274) + Taxi ($1,716) = $2,990
-**Opportunity:** You spend an average of only $1.64 per transport transaction but $4.37 per taxi
+**Current:** Transport (₼1,274) + Taxi (₼1,716) = ₼2,990
+**Opportunity:** You spend an average of only ₼1.64 per transport transaction but ₼4.37 per taxi
 **Strategy:** Plan routes to minimize taxi use; use public transport
-**Monthly Savings:** $30 | **Annual:** $360
+**Monthly Savings:** ₼30 | **Annual:** ₼360
 
 #### 5. Optimize Subscription & Services
-**Current:** Phone bills = $1,155 over the period
+**Current:** Phone bills = ₼1,155 over the period
 **Strategy:** Review and negotiate your phone plan
-**Monthly Savings:** $5-10 | **Annual:** $60-120
+**Monthly Savings:** ₼5-10 | **Annual:** ₼60-120
 
 #### 6. Category Budgets
 Implement strict monthly caps based on your best months:
 
 | Category | Current Avg | Target | Monthly Savings |
 |----------|-------------|--------|-----------------|
-| Restaurant | $459 | $300 | $159 |
-| Coffee | $350 | $200 | $150 |
-| Market | $263 | $250 | $13 |
-| Events | $107 | $75 | $32 |
+| Restaurant | ₼459 | ₼300 | ₼159 |
+| Coffee | ₼350 | ₼200 | ₼150 |
+| Market | ₼263 | ₼250 | ₼13 |
+| Events | ₼107 | ₼75 | ₼32 |
 
-**Total Strategic Savings: $354/month or $4,248/year**
+**Total Strategic Savings: ₼354/month or ₼4,248/year**
 
 ---
 
 ### Long-Term Wealth Building (6+ Months)
 
 #### 7. The 30-Day Rule for Major Purchases
-**Observation:** Tech ($4,731), Clothing ($5,921), and Travel ($3,910) show impulse patterns
-**Strategy:** Wait 30 days before purchases over $100
-**Estimated Annual Reduction:** $1,200-2,000
+**Observation:** Tech (₼4,731), Clothing (₼5,921), and Travel (₼3,910) show impulse patterns
+**Strategy:** Wait 30 days before purchases over ₼100
+**Estimated Annual Reduction:** ₼1,200-2,000
 
 #### 8. Build an Emergency Fund
-**Goal:** Save $5,000 in 12 months
+**Goal:** Save ₼5,000 in 12 months
 **Method:** Auto-transfer savings from reductions above
-**Target:** $417/month (achievable with Actions 1-6)
+**Target:** ₼417/month (achievable with Actions 1-6)
 
 #### 9. Quarterly Spending Reviews
 **Schedule:** Review spending every 3 months
@@ -186,19 +186,19 @@ Implement strict monthly caps based on your best months:
 
 | Strategy | Annual Savings |
 |----------|----------------|
-| Coffee Reduction (50/30 Rule) | $696 |
-| Meal Prep (2x/week) | $1,824 |
-| Micro-Transaction Control | $900 |
-| Restaurant Budget Cap | $1,908 |
-| Coffee Budget Cap | $1,800 |
-| Transportation Optimization | $360 |
-| Events Budget | $384 |
-| Major Purchase Discipline | $1,500 |
-| **TOTAL POTENTIAL SAVINGS** | **$9,372/year** |
+| Coffee Reduction (50/30 Rule) | ₼696 |
+| Meal Prep (2x/week) | ₼1,824 |
+| Micro-Transaction Control | ₼900 |
+| Restaurant Budget Cap | ₼1,908 |
+| Coffee Budget Cap | ₼1,800 |
+| Transportation Optimization | ₼360 |
+| Events Budget | ₼384 |
+| Major Purchase Discipline | ₼1,500 |
+| **TOTAL POTENTIAL SAVINGS** | **₼9,372/year** |
 
 ### What This Means
 
-By implementing just **50% of these strategies**, you could save **$4,686 annually** - that's enough to:
+By implementing just **50% of these strategies**, you could save **₼4,686 annually** - that's enough to:
 - Build a 3-month emergency fund in one year
 - Take a significant vacation debt-free
 - Start investing in your future
@@ -237,7 +237,7 @@ By implementing just **50% of these strategies**, you could save **$4,686 annual
 ## Key Takeaways
 
 ### Your Strengths
-1. **You've demonstrated control** - November 2022 shows you can live on $1,018/month
+1. **You've demonstrated control** - November 2022 shows you can live on ₼1,018/month
 2. **Weekend discipline** - Your weekend spending is actually better controlled than weekdays
 3. **Stable essentials** - Communal bills and transport are reasonable
 
@@ -249,7 +249,7 @@ By implementing just **50% of these strategies**, you could save **$4,686 annual
 
 ### The Bottom Line
 
-**You have the capability to save $5,000-10,000 annually** without drastically changing your lifestyle. The key is:
+**You have the capability to save ₼5,000-10,000 annually** without drastically changing your lifestyle. The key is:
 - **Awareness** of spending patterns
 - **Small, consistent changes** rather than drastic cuts
 - **Focus on high-impact categories** (dining, coffee)
@@ -262,7 +262,7 @@ By implementing just **50% of these strategies**, you could save **$4,686 annual
 1. **This Week:** Choose ONE immediate action from the list above
 2. **This Month:** Implement the 50/30 Coffee Rule and track results
 3. **This Quarter:** Establish category budgets and review progress
-4. **This Year:** Build your emergency fund and achieve $5,000+ in savings
+4. **This Year:** Build your emergency fund and achieve ₼5,000+ in savings
 
 **Remember:** Financial health is a journey, not a destination. Every small improvement compounds over time.
 
