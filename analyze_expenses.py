@@ -24,9 +24,9 @@ print("EXPENSE DATA ANALYSIS")
 print("=" * 60)
 print(f"\nTotal Transactions: {len(df):,}")
 print(f"Date Range: {df['date'].min().date()} to {df['date'].max().date()}")
-print(f"Total Spent: ${df['amount'].sum():,.2f}")
-print(f"Average Transaction: ${df['amount'].mean():.2f}")
-print(f"Median Transaction: ${df['amount'].median():.2f}")
+print(f"Total Spent: ₼{df['amount'].sum():,.2f}")
+print(f"Average Transaction: ₼{df['amount'].mean():.2f}")
+print(f"Median Transaction: ₼{df['amount'].median():.2f}")
 
 # Category breakdown
 print("\n" + "=" * 60)
@@ -46,9 +46,9 @@ monthly_stats.columns = ['Total', 'Transactions', 'Average']
 print("\n" + "=" * 60)
 print("MONTHLY SPENDING TRENDS")
 print("=" * 60)
-print(f"Average Monthly Spending: ${monthly_stats['Total'].mean():,.2f}")
-print(f"Highest Month: {monthly_stats['Total'].idxmax()} (${monthly_stats['Total'].max():,.2f})")
-print(f"Lowest Month: {monthly_stats['Total'].idxmin()} (${monthly_stats['Total'].min():,.2f})")
+print(f"Average Monthly Spending: ₼{monthly_stats['Total'].mean():,.2f}")
+print(f"Highest Month: {monthly_stats['Total'].idxmax()} (₼{monthly_stats['Total'].max():,.2f})")
+print(f"Lowest Month: {monthly_stats['Total'].idxmin()} (₼{monthly_stats['Total'].min():,.2f})")
 
 # Chart 1: Total Spending by Category (Pie Chart)
 plt.figure(figsize=(10, 8))
@@ -67,11 +67,11 @@ monthly_totals = df.groupby('year_month')['amount'].sum()
 plt.plot(monthly_totals.index.astype(str), monthly_totals.values,
          marker='o', linewidth=2, markersize=6, color='#2E86AB')
 plt.axhline(y=monthly_totals.mean(), color='r', linestyle='--',
-            label=f'Average: ${monthly_totals.mean():.2f}', linewidth=2)
+            label=f'Average: ₼{monthly_totals.mean():.2f}', linewidth=2)
 plt.fill_between(range(len(monthly_totals)), monthly_totals.values,
                  alpha=0.3, color='#2E86AB')
 plt.xlabel('Month', fontsize=12, fontweight='bold')
-plt.ylabel('Total Spending ($)', fontsize=12, fontweight='bold')
+plt.ylabel('Total Spending (₼)', fontsize=12, fontweight='bold')
 plt.title('Monthly Spending Trend', fontsize=16, fontweight='bold', pad=20)
 plt.xticks(rotation=45, ha='right')
 plt.legend(fontsize=11)
@@ -86,7 +86,7 @@ category_monthly = df.groupby(['year_month', 'category'])['amount'].sum().unstac
 category_monthly.plot(kind='area', stacked=True, alpha=0.7,
                      colormap='tab10', ax=plt.gca())
 plt.xlabel('Month', fontsize=12, fontweight='bold')
-plt.ylabel('Spending ($)', fontsize=12, fontweight='bold')
+plt.ylabel('Spending (₼)', fontsize=12, fontweight='bold')
 plt.title('Category Spending Trends Over Time', fontsize=16, fontweight='bold', pad=20)
 plt.legend(title='Category', bbox_to_anchor=(1.05, 1), loc='upper left')
 plt.xticks(rotation=45, ha='right')
@@ -105,7 +105,7 @@ colors_week = ['#FF6B6B' if day in ['Saturday', 'Sunday'] else '#4ECDC4'
 bars = plt.bar(range(len(day_order)), daily_spending['mean'], color=colors_week,
                edgecolor='black', linewidth=1.2)
 plt.xlabel('Day of Week', fontsize=12, fontweight='bold')
-plt.ylabel('Average Spending per Transaction ($)', fontsize=12, fontweight='bold')
+plt.ylabel('Average Spending per Transaction (₼)', fontsize=12, fontweight='bold')
 plt.title('Average Spending by Day of Week', fontsize=16, fontweight='bold', pad=20)
 plt.xticks(range(len(day_order)), day_order, rotation=45, ha='right')
 plt.grid(axis='y', alpha=0.3)
@@ -120,13 +120,13 @@ colors_bar = sns.color_palette("RdYlGn_r", len(top_categories))
 bars = plt.barh(range(len(top_categories)), top_categories.values, color=colors_bar,
                 edgecolor='black', linewidth=1.2)
 plt.yticks(range(len(top_categories)), top_categories.index, fontsize=11)
-plt.xlabel('Total Spending ($)', fontsize=12, fontweight='bold')
+plt.xlabel('Total Spending (₼)', fontsize=12, fontweight='bold')
 plt.title('Total Spending by Category', fontsize=16, fontweight='bold', pad=20)
 plt.grid(axis='x', alpha=0.3)
 
 # Add value labels
 for i, (idx, val) in enumerate(top_categories.items()):
-    plt.text(val, i, f' ${val:,.0f}', va='center', fontsize=10, fontweight='bold')
+    plt.text(val, i, f' ₼{val:,.0f}', va='center', fontsize=10, fontweight='bold')
 
 plt.tight_layout()
 plt.savefig('charts/category_totals.png', dpi=300, bbox_inches='tight')
@@ -137,7 +137,7 @@ plt.figure(figsize=(14, 8))
 hourly_daily = df.groupby(['day_of_week', 'hour'])['amount'].sum().unstack(fill_value=0)
 hourly_daily = hourly_daily.reindex(day_order)
 sns.heatmap(hourly_daily, cmap='YlOrRd', annot=False, fmt='.0f',
-            cbar_kws={'label': 'Total Spending ($)'})
+            cbar_kws={'label': 'Total Spending (₼)'})
 plt.xlabel('Hour of Day', fontsize=12, fontweight='bold')
 plt.ylabel('Day of Week', fontsize=12, fontweight='bold')
 plt.title('Spending Patterns by Day and Hour', fontsize=16, fontweight='bold', pad=20)
@@ -166,7 +166,7 @@ ax2.barh(range(len(category_avg)), category_avg.values,
          color=colors_avg, edgecolor='black', linewidth=1.2)
 ax2.set_yticks(range(len(category_avg)))
 ax2.set_yticklabels(category_avg.index)
-ax2.set_xlabel('Average Transaction Amount ($)', fontsize=12, fontweight='bold')
+ax2.set_xlabel('Average Transaction Amount (₼)', fontsize=12, fontweight='bold')
 ax2.set_title('Average Spending per Transaction', fontsize=14, fontweight='bold')
 ax2.grid(axis='x', alpha=0.3)
 
@@ -182,14 +182,14 @@ percentile_values = [np.percentile(df['amount'], p) for p in percentiles]
 bars = plt.bar([f'{p}th' for p in percentiles], percentile_values,
                color=sns.color_palette("coolwarm", len(percentiles)),
                edgecolor='black', linewidth=1.2)
-plt.ylabel('Transaction Amount ($)', fontsize=12, fontweight='bold')
+plt.ylabel('Transaction Amount (₼)', fontsize=12, fontweight='bold')
 plt.xlabel('Percentile', fontsize=12, fontweight='bold')
 plt.title('Spending Distribution by Percentile', fontsize=16, fontweight='bold', pad=20)
 plt.grid(axis='y', alpha=0.3)
 
 # Add value labels
 for i, (p, val) in enumerate(zip(percentiles, percentile_values)):
-    plt.text(i, val, f'${val:.2f}', ha='center', va='bottom',
+    plt.text(i, val, f'₼{val:.2f}', ha='center', va='bottom',
              fontsize=10, fontweight='bold')
 
 plt.tight_layout()
